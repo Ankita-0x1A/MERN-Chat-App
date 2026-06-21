@@ -1,0 +1,23 @@
+{
+  "name": "chatterbox",
+  "version": "1.0.0",
+  "description": "talking app",
+  "license": "ISC",
+  "author": "Ankita Sah",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "colors": "^1.4.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3"
+  }
+}
