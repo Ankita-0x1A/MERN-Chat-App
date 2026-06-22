@@ -23,7 +23,7 @@ const mongoose = require("mongoose");
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(
-      "mongodb+srv://sahankita213:ANKITASAH@cluster0.7kvr07c.mongodb.net/chat-app"
+      "mongodb+srv://username:passward@cluster0.7kvr07c.mongodb.net/chat-app"
     );
 
     console.log("MongoDB Connected:", conn.connection.host);
